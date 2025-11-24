@@ -1,30 +1,41 @@
+# EX 1B – Factorial of a Number
+## Date : 18/09/2025
 
-# EX 1B Power of 2
-## DATE:
-## AIM:
-To write a Java program to for given constraints.Given an integer n, return true if it is a power of two. Otherwise, return false.
-
-An integer n is a power of two, if there exists an integer x such that n == 2x.
+## Aim
+To write a Java program that reads an integer **N** from the user and calculates the factorial of the given number.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start  
+2. Read an integer **N** from the user.  
+3. Initialize a variable **i = 1**.  
+4. Loop from **j = 1** to **N**:  
+   - Multiply **i** by **j** and store the result in **i**.  
+5. After the loop ends, print the value of **i** (which is **N!**).  
+6. Stop  
 
-## Program:
+### Developed By: **Kurapati Vishnu Vardhan Reddy**  
+### Register Number: **212223040103**
+
+
+
+## Program
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int i = 1;
+        for(int j = 1; j <= n; j++){
+            i = i * j;
+        }
+        System.out.println(i);
+    }
+}
 ```
-/*
-Program to implement Reverse a String
-Developed by: 
-Register Number:  
-*/
-```
+### Output:
+<img width="387" height="198" alt="image" src="https://github.com/user-attachments/assets/b0ff48f2-693e-468f-a76d-d4db1d6bb21d" />
 
-## Output:
+### Result:
+The program successfully calculates and displays the factorial of a given number N.
 
-
-
-## Result:
-The program successfully implemented and the expected output is verified.
